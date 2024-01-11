@@ -1,7 +1,10 @@
 # Pet Adoption Website - Adopticare
 
 ## Short Description
-An individual academic project to showcase a fictional pet adoption organization.
+A simple academic project to showcase a fictional pet adoption organization.
+
+## Contributors
+Aman N. Nuckchady
 
 ## Languages Used:
 - HTML5
@@ -9,7 +12,7 @@ An individual academic project to showcase a fictional pet adoption organization
 - JavaScript
 
 ## Image Sources:
-- [UnSplash][https://unsplash.com/s/photos/splash]
-- [Free PNG Logos][https://www.freepnglogos.com/]
+- [UnSplash](https://unsplash.com/s/photos/splash)
+- [Free PNG Logos](https://www.freepnglogos.com/)
 
 
