@@ -1,0 +1,30 @@
+
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.form-area {
+  padding: 15px;
+  background-clip: content-box;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#content form {
+  margin: 10px;
+}
+
+#content img {
+  height: 80px;
+  width: 120px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Adopt A Cat/Dog</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/giveaway.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <table>
+      <tr>
+        <td>
+          <h1 onClick="redirectToHomePage()">AdoptiCare.</h1>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Content Area -->
+  <div class="content-area">
+    <table>
+      <tr>
+        <td id="side-menu">
+          <!-- Side Menu -->
+          <ul>
+            <li class="navlinks"><a href="index.html">Home page</a></li>
+            <li class="navlinks"><a href="pets.html">Browse Available Pets</a></li>
+            <li class="navlinks"><a href="find.html">Find a Dog/Cat</a></li>
+            <li class="navlinks"><a href="dog.html">Dog Care</a></li>
+            <li class="navlinks"><a href="cat.html">Cat Care</a></li>
+            <li class="navlinks"><a href="giveaway.html">Have a Pet to Give Away?</a></li>
+            <li class="navlinks"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </td>
+        <!--- Content -->
+        <td id="content">
+          <div class="form-area">
+            <form id="myForm" action="#" method="post">
+              <h1 style="font-size: 50px; padding-top: 400px;"> Have A Pet To Give Away?</h1>
+              <br><br>
+
+              <h1>Pet Info</h1>
+
+              <label for="animal">Is your pet a cat or a dog?</label>
+              <select style="height: 30px;width:70px;" id="animal" name="animal">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+              </select>
+
+              <br><br>
+
+              <label for="breed">Which breed is your animal?</label>
+              <input type="text" id="breed" name="breed" value="">
+              <label style="padding-left: 10px" for="unanswered">Mixed-Breed</label>
+              <input type="checkbox" id="unanswered" name="breed" value="unanswered">
+
+              <br><br>
+              <p>My Pet's Age:</p>
+              <input type="radio" id="range1" name="age" value="Range1">
+              <label style="padding-right: 10px;" for="range1">0 to 6 months</label>
+
+              <input type="radio" id="range2" name="age" value="Range2">
+              <label style="padding-right: 10px;" for="range2">6 months to 12 months</label>
+
+              <input type="radio" id="range3" name="age" value="Range3">
+              <label style="padding-right: 10px;" for="range3">12 to 24 months</label>
+
+              <input type="radio" id="range4" name="age" value="Range4">
+              <label style="padding-right: 10px;" for="range4">2 to 6 years</label>
+
+              <input type="radio" id="range5" name="age" value="Range5">
+              <label style="padding-right: 10px;" for="range5">7 to 11 years</label>
+
+              <br><br>
+
+              <p>My Pet's Gender: </p>
+              <input type="radio" id="male" name="gender" value="">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="">
+              <label for="female">Female</label>
+              <br><br>
+
+              <p>My Pet Enjoys the Company of:</p>
+              <input type="radio" id="dogs" name="pets" value="Dogs">
+              <label style="padding-right: 10px;" for="dogs">Other Dog(s)</label>
+
+              <input type="radio" id="cats" name="pets" value="Cats">
+              <label style="padding-right: 10px;" for="cats">Other Cat(s)</label>
+
+              <input type="radio" id="infants" name="pets" value="Infants">
+              <label style="padding-right: 10px;" for="infants">Children</label>
+
+              <input type="radio" id="none" name="pets" value="None">
+              <label style="padding-right: 10px;" for="none">None of the above</label>
+
+              <br><br>
+
+
+              <label for="comment-area">Additional Information About My Pet:</label><br>
+              <textarea id="comment-area" rows="4" cols="50"></textarea>
+
+              <h1 style="padding-top: 50px; padding-bottom:10px;">Owner Info</h1>
+
+
+              <label for="owner-name">Owner's Full Name: </label>
+              <input type="text" id="owner-name" name="owner-name" value="">
+              <br><br>
+
+              <label for="owner-email">Owner's Active Email: </label>
+              <input type="email" id="owner-email" name="owner-email" value="">
+              <br><br><br><br>
+
+              <input style="height: 50px; width: 100px;" type="submit" value="Submit">
+              <input style="height: 50px; width: 100px;" type="reset">
+
+            </form>
+            <div class="">
+              <!-- Image Source: https://www.freepnglogos.com/uploads/dog-png/bow-wow-gourmet-dog-treats-are-healthy-natural-low-4.png from Free PNG Logos -->
+              <img class="puppy" src="https://www.freepnglogos.com/uploads/dog-png/bow-wow-gourmet-dog-treats-are-healthy-natural-low-4.png" alt="puppy1">
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- Footer -->
+        <td colspan="2" id="footer">
+          <p>Copyright &copy; 2023 AdoptiCare <a href="privacy.html">Privacy/Disclaimer Statement</a></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+<script src="scripts/index.js"></script>
+<script src="scripts/giveaway.js"></script>
+</body>
+
+</html>

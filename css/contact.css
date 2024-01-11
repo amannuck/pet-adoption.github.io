@@ -1,0 +1,47 @@
+
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  background-color: #f8f9fa;
+  position: relative;
+  text-align: center;
+}
+
+#content img {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  left: 0px;
+  top: 0px;
+  opacity: 0.9;
+}
+
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.information>p {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#content table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#content table td {
+  padding-left: 20px;
+}
+
+
+@media (max-width: 1400px) {
+  #content img {
+    display: none;
+  }
+}

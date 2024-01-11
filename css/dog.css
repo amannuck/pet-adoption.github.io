@@ -1,0 +1,40 @@
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+#content img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.description {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description>div {
+  height: 50vh;
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  background-color: #d6d5c9;
+  color: #343a40;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+

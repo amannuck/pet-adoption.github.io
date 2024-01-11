@@ -1,0 +1,59 @@
+
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  resize: none;
+  color: black;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+
+.form-area {
+  height: 75vh;
+  background-color: #edf2f4;
+  background-clip: content-box;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: none;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 5px;
+}
+
+.form-area form {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+#comment-area {
+  height: 120px;
+  width: 600px;
+  resize: none;
+}
+
+.puppy {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+
+@media (max-width: 1000px) {
+  .form-area form {
+    width: 50%;
+  }
+
+  #comment-area {
+    height: 20%;
+    width: 80%;
+    resize: none;
+  }
+
+}

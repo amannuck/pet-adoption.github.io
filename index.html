@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Adopt A Cat/Dog</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body onload="setInterval(getCurrentDate, 1000);">
+  <!-- Header -->
+  <div class="header">
+    <table>
+      <tr>
+        <td>
+          <h1 onClick="redirectToHomePage()">AdoptiCare.</h1>
+          <p id="date"></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Content Area -->
+  <div class="content-area">
+    <table>
+      <tr>
+        <td id="side-menu">
+          <!-- Side Menu -->
+          <ul>
+            <li class="navlinks"><a href="index.html">Home page</a></li>
+            <li class="navlinks"><a href="pets.html">Browse Available Pets</a></li>
+            <li class="navlinks"><a href="find.html">Find a Dog/Cat</a></li>
+            <li class="navlinks"><a href="dog.html">Dog Care</a></li>
+            <li class="navlinks"><a href="cat.html">Cat Care</a></li>
+            <li class="navlinks"><a href="giveaway.html">Have a Pet to Give Away?</a></li>
+            <li class="navlinks"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </td>
+        <!--- Content -->
+        <td id="content">
+          <div class="text-area">
+            <h1>Welcome to AdoptiCare.</h1>
+            <p style="">A <b>Home</b> for Cats and Dogs.</p>
+            <br><br>
+            <div class="">
+              <ul>
+                <li>Explore our extensive database of charming felines and canines, each with their own unique stories and personalities.</li>
+                <li>Browse through profiles that showcase their age, breed, temperament, and any special requirements they may
+                  have.</li>
+                <li>By choosing our "Give Away a Pet" option, you have the opportunity to make a positive impact on both your pet's life and the lives of the adopters.</li>
+              </ul>
+            </div>
+            <h1>Help us create a world where every dog and cat has a loving home.</h1>
+          </div>
+          <div class="">
+            <!-- Image Source: https://cdn.pixabay.com/photo/2016/04/07/18/57/silhouette-1314467_1280.png from Pixabay -->
+            <img class="paw" src="https://cdn.pixabay.com/photo/2016/04/07/18/57/silhouette-1314467_1280.png" alt="paw">
+            <!-- Image Source: https://www.freepnglogos.com/uploads/dog-png/bow-wow-gourmet-dog-treats-are-healthy-natural-low-4.png from Free PNG Logos -->
+            <img class="puppy" style="bottom: 0px;right: 0px;" src="https://www.freepnglogos.com/uploads/dog-png/bow-wow-gourmet-dog-treats-are-healthy-natural-low-4.png" alt="puppy1">
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- Footer -->
+        <td colspan="2" id="footer">
+          <p>Copyright &copy; 2023 AdoptiCare <a href="privacy.html">Privacy/Disclaimer Statement</a></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<script src="scripts/index.js"></script>
+<script src="scripts/home.js"></script>
+
+</body>
+
+</html>

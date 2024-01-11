@@ -1,0 +1,33 @@
+
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+#content > div {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content li {
+  padding-top: 20px;
+}
+
+#content img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#content h1, #content p {
+  margin: 0;
+}
+
+

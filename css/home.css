@@ -1,0 +1,90 @@
+
+#date {
+  position: absolute;
+  top:0px;
+  right:10px;
+}
+.header>table {
+  text-align: center;
+  table-layout: fixed;
+}
+
+.content-area > table {
+  border-style: hidden;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#side-menu {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+
+#side-menu>ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks {
+  height: 100%;
+  list-style-type: none;
+}
+
+.navlinks>a {
+  display: flex;
+  background-color: #f8f9fa;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navlinks>a:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+#content {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.paw {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 22vw;
+  top: 10vh;
+  opacity: 0.075;
+}
+
+.puppy {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right:0px;
+  bottom:0px;
+}
+
+.text-area > div > ul {
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.text-area > div > ul > li {
+  padding-bottom: 5px;
+  list-style-position: inside;
+}
+
+
+
+
