@@ -2,7 +2,8 @@
 
 ## Short Description
 A simple academic project to showcase a fictional pet adoption organization.
-The project can be found here: (https://amannuck.github.io/pet-adoption.github.io/)
+
+The project can be found here: https://amannuck.github.io/pet-adoption.github.io/
 
 ## Contributors
 Aman N. Nuckchady
